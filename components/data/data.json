@@ -1,0 +1,1399 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "WORKNEX",
+      "logo_subtext": "Connecting Talent & Opportunities",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "button_text": "Enquire Now",
+      "button_link": "/enquire-now",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Services",
+          "href": "/services"
+        },
+        {
+          "name": "Testimonials",
+          "href": "/testimonials"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu"
+    },
+    "Footer": {
+      "logo": "/logo/logo-w.webp",
+      "logo_text": "WORKNEX",
+      "follow_us_title": "Follow Us",
+      "socials": [
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com",
+          "icon": "facebook"
+        },
+        {
+          "name": "Twitter",
+          "href": "https://twitter.com",
+          "icon": "twitter"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com",
+          "icon": "instagram"
+        },
+        {
+          "name": "LinkedIn",
+          "href": "https://linkedin.com",
+          "icon": "linkedin"
+        }
+      ],
+      "addresses": [
+        {
+          "state": "New York",
+          "company": "WorkNex HQ",
+          "lines": [
+            "123 Education Lane,",
+            "New York, NY 10001"
+          ]
+        }
+      ],
+      "quick_links_title": "Quick Links",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Services",
+          "href": "/services"
+        },
+        {
+          "name": "Testimonials",
+          "href": "/testimonials"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "contact": {
+        "title": "Work Inquiries",
+        "email": "info@xyz.com",
+        "email_href": "mailto:info@xyz.com",
+        "note_lines": [
+          "Interested in working with us?",
+          "Let's connect."
+        ]
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow.",
+      "bottom_tagline": "Connecting Talent with Opportunity"
+    },
+    "BackToTop": {
+      "aria_label": "Back to top of page"
+    }
+  },
+  "categories": {
+    "HRConsulting": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Worknex | Connecting Talent & Creating Opportunities",
+              "pageName": "Home",
+              "metadata": {
+                "title": "Worknex | Premier HR Consulting & Staffing Solutions",
+                "description": "Worknex connects exceptional professionals with forward-thinking organizations through strategic talent acquisition, workforce planning, and HR advisory."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog"
+                }
+              ]
+            },
+            "about": {
+              "title": "About Us | Worknex HR Consulting",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "About Us | Worknex - Connecting Talent With Opportunity",
+                "description": "Learn about Worknex's human-first recruitment methodology, strategic consulting capabilities, mission, vision, and leadership."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "MissionVisionSection",
+                  "component": "MissionVision"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                }
+              ]
+            },
+            "services": {
+              "title": "Our Services | Worknex Staffing & Consulting",
+              "pageName": "Our Services",
+              "metadata": {
+                "title": "Our Services | Worknex - Talent Acquisition & Staffing",
+                "description": "Explore comprehensive HR and talent acquisition services: executive search, direct hire, compliance consulting, and workforce planning."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ServicesIntroSection",
+                  "component": "ServicesIntro"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                }
+              ]
+            },
+            "testimonials": {
+              "title": "Client Testimonials | Worknex",
+              "pageName": "Testimonials",
+              "metadata": {
+                "title": "Client Testimonials | Worknex - Trusted by Industry Leaders",
+                "description": "Read verified executive reviews and watch video testimonials from business leaders who scaled with Worknex."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                }
+              ]
+            },
+            "blog": {
+              "title": "Blog & HR Insights | Worknex",
+              "pageName": "Blog",
+              "metadata": {
+                "title": "Insights & Updates from the World of HR | Worknex",
+                "description": "Stay ahead of talent trends with expert articles on recruitment pipelines, employee wellbeing, and organizational agility."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us | Worknex Talent Advisors",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Contact Us | Worknex - Connect with Our Talent Advisors",
+                "description": "Get in touch with Worknex at 123 Education Lane, New York, NY 10001 for executive staffing, HR advisory, and workforce inquiries."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            },
+            "enquireNow": {
+              "title": "Enquire Now | Worknex Talent Advisors",
+              "pageName": "Enquire Now",
+              "metadata": {
+                "title": "Enquire Now | Worknex - Tell Us Your Requirement",
+                "description": "Fill out the form and our team will get back to you shortly with the right solution for your hiring needs."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquireNowSection",
+                  "component": "EnquireNow"
+                }
+              ]
+            },
+            "serviceDetail": {
+              "title": "Service Details | Worknex",
+              "pageName": "Service Details",
+              "metadata": {
+                "title": "Service Details | Worknex HR Consulting",
+                "description": "Comprehensive workforce, recruitment, and organizational HR consulting services."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ServiceDetailSection",
+                  "component": "ServiceDetail"
+                }
+              ]
+            },
+            "blogDetail": {
+              "title": "Blog Details | Worknex",
+              "pageName": "Blog Details",
+              "metadata": {
+                "title": "Blog Details | Worknex Insights",
+                "description": "Expert insights on talent acquisition, workplace culture, and modern HR strategies."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BlogDetailSection",
+                  "component": "BlogDetail"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "headline": {
+                "line1_left": "Connecting",
+                "line1_badge": "/hero/team.webp",
+                "line1_right": "Creating",
+                "line2_left": "Talent",
+                "line2_right": "Opportunities"
+              },
+              "stat_card1": {
+                "value": "2.5k+",
+                "label": "Professionals Placed",
+                "avatars": [
+                  "/hero/avatar1.webp",
+                  "/hero/avatar2.webp",
+                  "/hero/avatar3.webp"
+                ],
+                "plus_count": "+"
+              },
+              "action_card": {
+                "title": "Building strong teams for a brighter tomorrow.",
+                "button_text": "Explore More",
+                "button_link": "#services",
+                "video_label": "Watch Story"
+              },
+              "center_image": "/hero/team.webp",
+              "center_image_alt": "Diverse professional team collaborating around laptop in sunlit corporate office",
+              "stat_card2": {
+                "value": "20+",
+                "label": "Industries We Serve"
+              },
+              "right_image": "/hero/executive.webp",
+              "right_image_alt": "Corporate business executive in navy suit holding digital tablet"
+            },
+            "about": {
+              "eyebrow": "ABOUT US",
+              "title_line1": "Connecting",
+              "title_line2": "Talent With",
+              "title_line3": "Opportunity.",
+              "title_black": "Connecting Talent With",
+              "title_teal": "Opportunity.",
+              "description_1": "At WORKNEX, we believe the right people can transform businesses. We are a trusted HR consultancy and recruitment partner, dedicated to bridging the gap between exceptional talent and forward-thinking organizations.",
+              "description_2": "With a people-first approach, industry expertise, and a commitment to long-term success, we help businesses build stronger teams and professionals find meaningful career opportunities.",
+              "vertical_badge": "WHO WE ARE",
+              "image": "/about/meeting.webp",
+              "image_alt": "Worknex executive team meeting and talent presentation"
+            },
+            "services": {
+              "image": "/services/consultation.webp",
+              "image_alt": "Worknex HR consultation and strategic recruitment discussion",
+              "eyebrow": "OUR SOLUTIONS",
+              "title_line1": "Get the Most",
+              "title_line2": "Valuable HR Services",
+              "title_black": "Get the Most",
+              "title_teal": "Valuable HR Services",
+              "description": "We help businesses build stronger teams with tailored HR solutions that drive growth and long-term success.",
+              "cta_text": "VIEW ALL SOLUTIONS",
+              "cta_link": "/services",
+              "items": [
+                {
+                  "id": "talent-acquisition",
+                  "number": "01",
+                  "title": "Talent Acquisition",
+                  "description": "Helping you hire the right talent for long-term growth.",
+                  "href": "/services/talent-acquisition"
+                },
+                {
+                  "id": "hr-consulting",
+                  "number": "02",
+                  "title": "HR Consulting",
+                  "description": "Strategic HR solutions to strengthen your organization.",
+                  "href": "/services/hr-consulting"
+                },
+                {
+                  "id": "workforce-planning",
+                  "number": "03",
+                  "title": "Workforce Planning",
+                  "description": "Build a future-ready workforce aligned with your business goals.",
+                  "href": "/services/workforce-planning"
+                },
+                {
+                  "id": "staffing-solutions",
+                  "number": "04",
+                  "title": "Staffing Solutions",
+                  "description": "Flexible staffing services for your changing business needs.",
+                  "href": "/services/staffing-solutions"
+                },
+                {
+                  "id": "executive-search",
+                  "number": "05",
+                  "title": "Executive Search & Leadership",
+                  "description": "Identifying and placing visionary executive leaders for critical enterprise roles.",
+                  "href": "/services/executive-search"
+                },
+                {
+                  "id": "compensation-benefits",
+                  "number": "06",
+                  "title": "Compensation & Benefits Strategy",
+                  "description": "Designing competitive salary structures and retention incentive programs.",
+                  "href": "/services/compensation-benefits"
+                },
+                {
+                  "id": "compliance-risk",
+                  "number": "07",
+                  "title": "HR Compliance & Risk Advisory",
+                  "description": "Navigating labor regulations, audit readiness, and workplace policy frameworks.",
+                  "href": "/services/compliance-risk"
+                },
+                {
+                  "id": "global-mobility",
+                  "number": "08",
+                  "title": "Global Mobility & Remote Talent",
+                  "description": "Seamless international recruitment, cross-border onboarding, and compliance.",
+                  "href": "/services/global-mobility"
+                }
+              ]
+            },
+            "testimonials": {
+              "eyebrow": "CLIENT TESTIMONIALS",
+              "title_black": "Trusted by Businesses,",
+              "title_teal": "Built on Real Experiences",
+              "items": [
+                {
+                  "id": "test-1",
+                  "type": "review",
+                  "quote": "Worknex helped us find the right talent quickly. They truly understood our requirements and provided top-tier candidates who integrated seamlessly into our culture.",
+                  "author": "Sarah Jenkins",
+                  "role": "VP of People, FinTech Solutions",
+                  "avatar": "/hero/avatar1.webp"
+                },
+                {
+                  "id": "test-2",
+                  "type": "video",
+                  "image": "/testimonials/video1.webp",
+                  "image_alt": "Client interview video testimonial",
+                  "video_url": "https://www.youtube.com/embed/ScMzIvxBSi4"
+                },
+                {
+                  "id": "test-3",
+                  "type": "review",
+                  "quote": "Their transparent process and proactive communication made assembling our product team smooth and efficient. We wouldn't partner with anyone else.",
+                  "author": "Priya Sharma",
+                  "role": "Head of Engineering, CloudScale",
+                  "avatar": "/hero/avatar2.webp"
+                },
+                {
+                  "id": "test-4",
+                  "type": "video",
+                  "image": "/testimonials/video2.webp",
+                  "image_alt": "Candidate career story video testimonial",
+                  "video_url": "https://www.youtube.com/embed/LXb3EKWsInQ"
+                },
+                {
+                  "id": "test-5",
+                  "type": "review",
+                  "quote": "Worknex isn't just a vendor, they are an extension of our HR team. Their deep understanding of our industry and high standards is genuinely impressive.",
+                  "author": "Amit Verma",
+                  "role": "Chief Executive Officer, Nexa Tech",
+                  "avatar": "/hero/avatar3.webp"
+                },
+                {
+                  "id": "test-6",
+                  "type": "video",
+                  "image": "/testimonials/video3.webp",
+                  "image_alt": "Enterprise HR partnership testimonial",
+                  "video_url": "https://www.youtube.com/embed/fJ9rUzIMcZQ"
+                }
+              ]
+            },
+            "blog": {
+              "badge": "LATEST BLOG & INSIGHTS",
+              "title_black": "Insights & Updates",
+              "title_teal": "from the World of HR",
+              "posts": [
+                {
+                  "id": "post-1",
+                  "slug": "how-to-build-a-high-performing-team-in-2026",
+                  "title": "How to Build a High-Performing Team in 2026",
+                  "category": "Team Leadership",
+                  "author": "BY ADMIN",
+                  "comments": "NO COMMENTS",
+                  "date": "Oct 15, 2026",
+                  "read_time": "5 min read",
+                  "excerpt": "Building a high-performing team goes beyond just hiring talented individuals. It requires the right mix of people, clear communication, and a culture that encourages growth.",
+                  "image": "/blog/team_hero.jpg",
+                  "href": "/blog/how-to-build-a-high-performing-team-in-2026"
+                },
+                {
+                  "id": "post-2",
+                  "slug": "how-to-build-a-strong-talent-pipeline-in-2025",
+                  "title": "How to Build a Strong Talent Pipeline in 2025",
+                  "category": "Recruitment",
+                  "author": "BY ADMIN",
+                  "comments": "NO COMMENTS",
+                  "date": "May 14, 2025",
+                  "read_time": "5 min read",
+                  "excerpt": "Explore practical strategies to attract, engage and retain top talent in a competitive job market.",
+                  "image": "/blog/blog1.webp",
+                  "href": "/blog/how-to-build-a-strong-talent-pipeline-in-2025"
+                },
+                {
+                  "id": "post-3",
+                  "slug": "the-growing-importance-of-employee-wellbeing",
+                  "title": "The Growing Importance of Employee Wellbeing",
+                  "category": "HR Strategy",
+                  "author": "BY ADMIN",
+                  "comments": "NO COMMENTS",
+                  "date": "Apr 28, 2025",
+                  "read_time": "6 min read",
+                  "excerpt": "Discover how organizations are prioritizing employee wellbeing to build healthier, more productive teams.",
+                  "image": "/blog/blog2.webp",
+                  "href": "/blog/the-growing-importance-of-employee-wellbeing"
+                }
+              ],
+              "button_text": "VIEW ALL BLOGS",
+              "button_link": "/blog"
+            },
+            "breadcrumb": {
+              "title": "Worknex",
+              "background_image": "/breadcrumb/banner.webp",
+              "background_alt": "Worknex luxury modern corporate office interior",
+              "items": [
+                {
+                  "name": "Home",
+                  "href": "/"
+                }
+              ]
+            },
+            "contact": {
+              "top_eyebrow": "CONTACT US",
+              "top_heading_black1": "Would you like more",
+              "top_heading_black2": "information?",
+              "top_heading_teal1": "We are happy to",
+              "top_heading_teal2": "help you!",
+              "office_info": {
+                "title": "Our Office",
+                "address_lines": [
+                  "123 Education Lane,",
+                  "New York, NY 10001"
+                ],
+                "phone_label": "Call Us",
+                "phone": "+100000000000",
+                "phone_href": "tel:+100000000000",
+                "email_label": "Email Us",
+                "email": "info@xyz.com",
+                "email_href": "mailto:info@xyz.com",
+                "working_hours_label": "Working Hours",
+                "working_hours_lines": [
+                  "Mon - Sat: 9:00 AM - 6:00 PM",
+                  "Sunday: Closed"
+                ],
+                "logo": "/logo/logo-w.webp"
+              },
+              "map_embed_url": "https://maps.google.com/maps?q=123%20Education%20Lane%2C%20New%20York%2C%20NY%2010001&t=&z=13&ie=UTF8&iwloc=&output=embed",
+              "form_eyebrow": "GET IN TOUCH",
+              "form_heading_black1": "Let's",
+              "form_heading_black2": "connect for",
+              "form_heading_teal1": "better",
+              "form_heading_teal2": "opportunities",
+              "form_description": "Fill out the form and our team will get back to you shortly.",
+              "form_button_text": "Submit Now",
+              "form_options": [
+                "Select an Option",
+                "Talent Acquisition",
+                "HR Consulting",
+                "Workforce Planning",
+                "Staffing Solutions",
+                "Executive Search & Leadership",
+                "General Inquiry"
+              ]
+            },
+            "missionVision": {
+              "eyebrow": "OUR FOUNDATION & PURPOSE",
+              "title_black": "Empowering Organizations,",
+              "title_teal": "Fulfilling Potential"
+            },
+            "servicesIntro": {
+              "eyebrow": "OUR SOLUTIONS",
+              "title_line1": "HR Solutions",
+              "title_line2": "for a Stronger",
+              "title_teal": "Workforce",
+              "description": "Simple, effective solutions to help you attract, develop and retain the right talent.",
+              "image": "/services/solutions_hero.jpg",
+              "image_alt": "HR solutions executive team collaboration"
+            },
+            "serviceDetails": {
+              "talent-acquisition": {
+                "slug": "talent-acquisition",
+                "number": "01",
+                "name": "Talent Acquisition",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "Recruitment\n& Staffing",
+                "hero_subtitle": "Connecting the right talent with the right opportunities to help your business grow.",
+                "hero_cta_text": "Get In Touch",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/solutions_hero.jpg",
+                "hero_image_alt": "Recruitment and staffing executive collaboration",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Find the Right\nPeople, Faster",
+                "overview_description": "We help you build high-performing teams by finding and placing the right talent across industries and roles, from entry level to leadership positions.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "Executive interview discussion",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "Consultant reviewing candidate resume and portfolio",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Permanent Staffing",
+                    "description": "Hiring the right talent for long-term success."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Contract Staffing",
+                    "description": "Flexible workforce solutions for changing needs."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Executive Search",
+                    "description": "Finding leaders who drive your business forward."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "A Simple &\nTransparent Process",
+                "process_description": "We follow a focused approach to ensure you get the best talent, faster.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Understand\nYour Needs",
+                    "description": "We learn about your goals and role requirements."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Source & Screen",
+                    "description": "We identify and assess the best candidates."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Match & Present",
+                    "description": "We share shortlisted talent for your review."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Hire & Support",
+                    "description": "We assist till successful onboarding."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "A Trusted Partner\nin Talent Acquisition",
+                "why_description": "We go beyond resumes to deliver professionals who fit your culture, goals and vision.",
+                "why_image": "/testimonials/video1.webp",
+                "why_image_alt": "Two professionals collaborating on a laptop",
+                "stats": [
+                  {
+                    "value": "13+",
+                    "label": "Years of Experience"
+                  },
+                  {
+                    "value": "500+",
+                    "label": "Successful Placements"
+                  },
+                  {
+                    "value": "95%",
+                    "label": "Client Satisfaction"
+                  }
+                ]
+              },
+              "hr-consulting": {
+                "slug": "hr-consulting",
+                "number": "02",
+                "name": "HR Consulting",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "Strategic HR\n& Advisory",
+                "hero_subtitle": "Empowering organizational growth through robust human capital frameworks and policy advisory.",
+                "hero_cta_text": "Schedule Consultation",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/consultation.webp",
+                "hero_image_alt": "Strategic HR consultation meeting",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Build Resilient\nPeople Operations",
+                "overview_description": "We partner with leadership teams to design modern workplace policies, employee engagement initiatives, and scalable HR systems that drive peak enterprise productivity.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "HR consulting executive roadmap session",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "HR policy and governance review",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Organizational Design",
+                    "description": "Restructuring business units for agility and accountability."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Policy & Handbook Engineering",
+                    "description": "Developing modern, compliant employee governance frameworks."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Culture & Retention Programs",
+                    "description": "Fostering engagement and high-trust collaborative environments."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "Our Diagnostic\nAdvisory Method",
+                "process_description": "A structured 4-step framework to identify operational bottlenecks and engineer lasting solutions.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Operational\nAudit",
+                    "description": "In-depth review of existing HR workflows and policies."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Strategy Design",
+                    "description": "Formulating custom people strategy and governance metrics."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Change Rollout",
+                    "description": "Guiding managers and teams through seamless execution."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Impact Review",
+                    "description": "Measuring retention gains and operational efficiency."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "Decades of Proven\nHR Advisory Mastery",
+                "why_description": "We translate corporate vision into measurable, employee-centric operational reality.",
+                "why_image": "/testimonials/video2.webp",
+                "why_image_alt": "HR strategy discussion",
+                "stats": [
+                  {
+                    "value": "15+",
+                    "label": "Years in HR Advisory"
+                  },
+                  {
+                    "value": "350+",
+                    "label": "Audits Completed"
+                  },
+                  {
+                    "value": "98%",
+                    "label": "Client Retention Rate"
+                  }
+                ]
+              },
+              "workforce-planning": {
+                "slug": "workforce-planning",
+                "number": "03",
+                "name": "Workforce Planning",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "Future-Ready\nWorkforce Planning",
+                "hero_subtitle": "Forecast talent demand, optimize resource allocation, and eliminate capability bottlenecks.",
+                "hero_cta_text": "Plan Your Workforce",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/solutions_hero.jpg",
+                "hero_image_alt": "Workforce planning session",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Align Headcount\nWith Business Goals",
+                "overview_description": "We deliver predictive workforce analytics that connect strategic enterprise targets with actionable hiring roadmaps, mitigating talent shortages before they impact performance.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "Workforce capacity planning meeting",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "Workforce skills matrix evaluation",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Headcount & Capacity Modeling",
+                    "description": "Aligning staffing expenditure directly with revenue forecasts."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Critical Skills Gap Analysis",
+                    "description": "Pinpointing technical competency voids across departments."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Succession Architecture",
+                    "description": "Safeguarding key leadership continuity with structured pipelines."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "Data-Driven\nWorkforce Roadmap",
+                "process_description": "Translating fiscal targets into clear, stage-by-stage human capital deployment.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Capability\nMapping",
+                    "description": "Cataloging internal strengths and capacity limits."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Scenario Modeling",
+                    "description": "Forecasting demand across expansion and lean cycles."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Talent Supply Plan",
+                    "description": "Formulating build, buy, and borrow staffing tactics."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Capacity Tracking",
+                    "description": "Monitoring hiring velocity against milestone deadlines."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "Uncompromising\nResource Optimization",
+                "why_description": "Stop reactive hiring. Build proactive talent pipelines that sustain long-term enterprise momentum.",
+                "why_image": "/testimonials/video3.webp",
+                "why_image_alt": "Enterprise workforce analysis",
+                "stats": [
+                  {
+                    "value": "30%",
+                    "label": "Hiring Cost Reduction"
+                  },
+                  {
+                    "value": "400+",
+                    "label": "Strategic Models Built"
+                  },
+                  {
+                    "value": "99%",
+                    "label": "Headcount Forecast Precision"
+                  }
+                ]
+              },
+              "staffing-solutions": {
+                "slug": "staffing-solutions",
+                "number": "04",
+                "name": "Staffing Solutions",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "Flexible Staffing\n& Managed Talent",
+                "hero_subtitle": "Agile contract staffing, temp-to-hire, and rapid response deployment for peak project delivery.",
+                "hero_cta_text": "Request Talent",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/consultation.webp",
+                "hero_image_alt": "Agile staffing consultation",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Scale Your Team\nWithout Friction",
+                "overview_description": "Gain immediate access to verified, pre-screened technical and commercial specialists. We handle contracting, compliance, and onboarding so you focus on project execution.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "Candidate screening meeting",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "Contract staffing agreement review",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Contingent & Project Staffing",
+                    "description": "On-demand professionals deployed within days."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Temp-to-Perm Transitions",
+                    "description": "Evaluate cultural and technical fit before making long-term commitments."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Managed Service Programs (MSP)",
+                    "description": "Complete vendor management, contractor payroll, and compliance."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "Rapid Deployment\nWithin 48 Hours",
+                "process_description": "Our proprietary talent network allows us to match and deploy vetted professionals swiftly.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Skillset &\nScope Intake",
+                    "description": "Detailed breakdown of technical needs and timeline."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Instant Matching",
+                    "description": "Querying our active pre-qualified talent repository."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Express Onboarding",
+                    "description": "Paperwork, background checks, and setup completed in 48 hours."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Managed Performance",
+                    "description": "Weekly milestone check-ins and painless invoicing."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "Elastic Capacity\nGuaranteed Caliber",
+                "why_description": "Never miss a release milestone due to staffing constraints. We provide elite specialists on demand.",
+                "why_image": "/testimonials/video1.webp",
+                "why_image_alt": "Contractors working together",
+                "stats": [
+                  {
+                    "value": "48h",
+                    "label": "Average Placement Time"
+                  },
+                  {
+                    "value": "1,200+",
+                    "label": "Specialists Deployed"
+                  },
+                  {
+                    "value": "96%",
+                    "label": "Contract Renewal Rate"
+                  }
+                ]
+              },
+              "executive-search": {
+                "slug": "executive-search",
+                "number": "05",
+                "name": "Executive Search & Leadership",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "C-Suite & Board\nExecutive Search",
+                "hero_subtitle": "Discreet, confidential executive retained headhunting for game-changing enterprise leaders.",
+                "hero_cta_text": "Initiate Executive Search",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/solutions_hero.jpg",
+                "hero_image_alt": "Executive leadership boardroom meeting",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Secure Leaders\nWho Define Industry",
+                "overview_description": "Exceptional executive talent is rarely actively looking. We leverage deep, trusted industry relationships to engage visionary CEOs, CTOs, CFOs, and Board Directors for pivotal appointments.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "Executive interview discussion",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "Executive candidate credentials appraisal",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Retained C-Level Headhunting",
+                    "description": "Bespoke, confidential search for foundational executives."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Board Advisory Appointments",
+                    "description": "Placing independent directors who elevate corporate governance."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Executive Compensation Structuring",
+                    "description": "Designing compelling equity, bonus, and transition packages."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "Discreet &\nRigorous Methodology",
+                "process_description": "A high-touch executive search process that preserves absolute stakeholder confidentiality.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Leadership\nMandate",
+                    "description": "Aligning on strategic mission and board expectations."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Market Mapping",
+                    "description": "Covertly mapping top performers across industry competitors."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Deep Appraisal",
+                    "description": "Rigorous 360-degree behavioral and track-record vetting."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Offer & Close",
+                    "description": "Advising on compensation, transition, and long-term retention."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "Trusted by Boards\nand Enterprise Founders",
+                "why_description": "We have placed market-defining executives who have driven exponential enterprise value creation.",
+                "why_image": "/testimonials/video2.webp",
+                "why_image_alt": "Executive consultation",
+                "stats": [
+                  {
+                    "value": "96%",
+                    "label": "2-Year Leadership Retention"
+                  },
+                  {
+                    "value": "180+",
+                    "label": "C-Level Placements"
+                  },
+                  {
+                    "value": "30d",
+                    "label": "Average Shortlist Delivery"
+                  }
+                ]
+              },
+              "compensation-benefits": {
+                "slug": "compensation-benefits",
+                "number": "06",
+                "name": "Compensation & Benefits Strategy",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "Compensation &\nTotal Rewards",
+                "hero_subtitle": "Design competitive, equitable salary bands, equity plans, and wellness perks to win top talent.",
+                "hero_cta_text": "Benchmark Salary Bands",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/consultation.webp",
+                "hero_image_alt": "Compensation strategy analysis",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Attract Top Talent\nWithout Burn Spikes",
+                "overview_description": "In competitive hiring landscapes, guesswork around pay leads to turnover and inflated costs. We provide empirical market benchmarking and structured level-based compensation bands.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "Financial rewards review",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "Compensation benchmark analysis",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Real-Time Salary Benchmarking",
+                    "description": "Empirical market compensation percentiles by role and geography."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Equity & Incentive Frameworks",
+                    "description": "Aligning team performance with long-term enterprise value."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Modern Perks & Wellness Architecture",
+                    "description": "High-value healthcare, flexibility, and lifestyle benefits."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "Analytical Rewards\nEngineering",
+                "process_description": "Transparent, equitable compensation architectures built on robust market data.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Internal Audit\n& Pay Equity",
+                    "description": "Evaluating wage parity and role leveling consistency."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Market Data Matching",
+                    "description": "Benchmarking current packages against industry leaders."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Band Architecture",
+                    "description": "Constructing scalable compensation tiers and promotion paths."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Manager Enablement",
+                    "description": "Training leadership to communicate compensation with clarity."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "Equitable, Competitive\nand Fiscally Disciplined",
+                "why_description": "We empower organizations to recruit fiercely while maintaining sustainable financial control.",
+                "why_image": "/testimonials/video3.webp",
+                "why_image_alt": "Compensation meeting",
+                "stats": [
+                  {
+                    "value": "25%",
+                    "label": "Drop in Voluntary Turnover"
+                  },
+                  {
+                    "value": "90+",
+                    "label": "Salary Matrices Built"
+                  },
+                  {
+                    "value": "100%",
+                    "label": "Pay Equity Compliance"
+                  }
+                ]
+              },
+              "compliance-risk": {
+                "slug": "compliance-risk",
+                "number": "07",
+                "name": "HR Compliance & Risk Advisory",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "Workplace Compliance\n& Risk Advisory",
+                "hero_subtitle": "Protecting your organization from statutory penalties, labor disputes, and audit liabilities.",
+                "hero_cta_text": "Request Compliance Audit",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/solutions_hero.jpg",
+                "hero_image_alt": "HR compliance review",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Comprehensive Protection\nfor Peace of Mind",
+                "overview_description": "Labor laws, classification rules, and statutory standards are in constant flux. We audit your documentation, agreements, and policies to ensure 100% legal resilience.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "Legal HR compliance consultation",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "Labor law audit documents review",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Comprehensive Labor Audits",
+                    "description": "Full compliance inspections across hiring, wages, and safety."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Legally Vetted Employment Contracts",
+                    "description": "Custom agreements, IP protection clauses, and severance terms."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Mandatory Workplace Training",
+                    "description": "Harassment prevention, ethics, and manager compliance workshops."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "Zero-Vulnerability\nCompliance Protocol",
+                "process_description": "Methodical risk mitigation to ensure total audit preparedness.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Compliance\nInspection",
+                    "description": "Thorough review of contractor status, I-9s, and payroll."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Risk Remediation",
+                    "description": "Correcting documentation gaps and outmoded policies."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Policy Standardization",
+                    "description": "Publishing unified, compliant employee handbooks."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Ongoing Monitoring",
+                    "description": "Real-time updates as local and federal statutes evolve."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "Zero Penalties,\nAbsolute Legal Confidence",
+                "why_description": "Led by certified HR compliance specialists to shield your enterprise from avoidable liabilities.",
+                "why_image": "/testimonials/video1.webp",
+                "why_image_alt": "Compliance team discussion",
+                "stats": [
+                  {
+                    "value": "100%",
+                    "label": "Audit Pass Rate"
+                  },
+                  {
+                    "value": "300+",
+                    "label": "Corporate Handbooks Certified"
+                  },
+                  {
+                    "value": "$0",
+                    "label": "Fines Incurred by Clients"
+                  }
+                ]
+              },
+              "global-mobility": {
+                "slug": "global-mobility",
+                "number": "08",
+                "name": "Global Mobility & Remote Talent",
+                "hero_eyebrow": "SOLUTION DETAILS",
+                "hero_title": "Global Mobility &\nCross-Border Talent",
+                "hero_subtitle": "Hire, onboard, and manage international top talent across 45+ countries compliantly.",
+                "hero_cta_text": "Hire Globally",
+                "hero_cta_link": "/contact",
+                "hero_image": "/services/consultation.webp",
+                "hero_image_alt": "Global mobility consultation",
+                "overview_eyebrow": "OVERVIEW",
+                "overview_title": "Tap Global Talent\nWithout Borders",
+                "overview_description": "The world's best talent is everywhere. We eliminate the friction of international hiring with Employer of Record (EOR) advisory, visa navigation, and multi-currency compliance.",
+                "overview_image": "/services/service_interview.jpg",
+                "overview_image_alt": "International team onboarding meeting",
+                "offer_eyebrow": "WHAT WE OFFER",
+                "offer_image": "/services/service_review.jpg",
+                "offer_image_alt": "International candidate visa paperwork",
+                "offer_items": [
+                  {
+                    "number": "01",
+                    "title": "Employer of Record (EOR) Advisory",
+                    "description": "Hire overseas without creating complex foreign corporate entities."
+                  },
+                  {
+                    "number": "02",
+                    "title": "Expatriate Visas & Relocation",
+                    "description": "End-to-end work permit filing and seamless family relocation."
+                  },
+                  {
+                    "number": "03",
+                    "title": "Cross-Border Payroll & Taxes",
+                    "description": "Accurate multi-currency payments with local tax withholding."
+                  }
+                ],
+                "process_eyebrow": "OUR PROCESS",
+                "process_title": "Frictionless Global\nExpansion Flow",
+                "process_description": "Hire and onboard international specialists in days, not months.",
+                "process_steps": [
+                  {
+                    "step": "01",
+                    "title": "Jurisdiction\nAnalysis",
+                    "description": "Assessing local employment laws and optimum hiring model."
+                  },
+                  {
+                    "step": "02",
+                    "title": "Compliant Contracts",
+                    "description": "Drafting employment agreements aligned with country standards."
+                  },
+                  {
+                    "step": "03",
+                    "title": "Remote Onboarding",
+                    "description": "Shipping hardware, setting up benefits, and digital identity."
+                  },
+                  {
+                    "step": "04",
+                    "title": "Statutory Payroll",
+                    "description": "Automating pension, healthcare, and tax deductions seamlessly."
+                  }
+                ],
+                "why_eyebrow": "WHY CHOOSE US",
+                "why_title": "A Truly Borderless\nTalent Ecosystem",
+                "why_description": "We help forward-thinking companies build global, diverse teams with total legal peace of mind.",
+                "why_image": "/testimonials/video2.webp",
+                "why_image_alt": "Remote international team meeting",
+                "stats": [
+                  {
+                    "value": "45+",
+                    "label": "Countries Supported"
+                  },
+                  {
+                    "value": "850+",
+                    "label": "International Hires Managed"
+                  },
+                  {
+                    "value": "100%",
+                    "label": "Local Statutory Compliance"
+                  }
+                ]
+              }
+            },
+            "blogDetails": {
+              "how-to-build-a-high-performing-team-in-2026": {
+                "id": "post-1",
+                "slug": "how-to-build-a-high-performing-team-in-2026",
+                "eyebrow": "BLOG DETAILS",
+                "title": "How to Build a High-Performing Team in 2026",
+                "author": "Admin",
+                "date": "Oct 15, 2026",
+                "comments": "No Comments",
+                "category": "Team Leadership",
+                "read_time": "5 min read",
+                "image": "/blog/team_hero.jpg",
+                "image_alt": "Diverse corporate team collaborating at glass table in open plan office",
+                "intro_paragraph": "Building a high-performing team goes beyond just hiring talented individuals. It requires the right mix of people, clear communication, and a culture that encourages growth. In 2026, organizations must focus on flexibility, collaboration and continuous learning to stay ahead in a rapidly evolving business landscape.",
+                "quote": "Great teams are built on trust, clear goals and a shared purpose.",
+                "paragraph_after_quote": "When people feel supported and aligned with a common goal, they perform better and contribute meaningfully. A high-performing team not only achieves targets but also adapts quickly to change and drives long-term success.",
+                "sub_section": {
+                  "title": "Create a Positive Work Culture",
+                  "image": "/blog/team_culture.jpg",
+                  "image_alt": "Corporate strategy meeting with smiling colleagues and open laptop",
+                  "paragraphs": [
+                    "A positive work culture encourages open communication, mutual respect and a sense of belonging. When employees feel valued, they are more engaged, productive and motivated to achieve shared goals.",
+                    "Leaders should focus on recognition, transparency and creating opportunities for professional and personal growth."
+                  ]
+                },
+                "strategies": {
+                  "title": "Key Strategies for Success",
+                  "intro": "To build and sustain a high-performing team, focus on these key areas:",
+                  "points": [
+                    "Hire for both skills and cultural fit",
+                    "Set clear goals and expectations",
+                    "Encourage open and honest communication",
+                    "Provide continuous learning opportunities"
+                  ]
+                },
+                "conclusion": "A strong team is the foundation of a successful business. By investing in the right people, fostering a supportive environment and staying focused on shared goals, organizations can build high-performing teams that drive innovation and long-term growth in 2026 and beyond."
+              },
+              "how-to-build-a-strong-talent-pipeline-in-2025": {
+                "id": "post-2",
+                "slug": "how-to-build-a-strong-talent-pipeline-in-2025",
+                "eyebrow": "BLOG DETAILS",
+                "title": "How to Build a Strong Talent Pipeline in 2025",
+                "author": "Admin",
+                "date": "May 14, 2025",
+                "comments": "No Comments",
+                "category": "Recruitment",
+                "read_time": "5 min read",
+                "image": "/blog/blog1.webp",
+                "image_alt": "Talent pipeline strategy session",
+                "intro_paragraph": "In today’s competitive talent landscape, organizations that wait for vacancies before recruiting face costly delays. Developing a proactive pipeline ensures continuous organizational momentum and leadership continuity.",
+                "quote": "Proactive recruiting transforms hiring from an urgent scramble into a predictable growth advantage.",
+                "paragraph_after_quote": "By building relationships with candidate communities months before positions open, talent acquisition leaders reduce cost-per-hire and secure higher quality cultural matches.",
+                "sub_section": {
+                  "title": "Empower Candidate Engagement",
+                  "image": "/blog/team_culture.jpg",
+                  "image_alt": "Talent advisors meeting candidates",
+                  "paragraphs": [
+                    "Modern candidates value authenticity, speed of feedback, and transparent discussions regarding compensation and trajectory.",
+                    "Regular nurture campaigns and personalized recruiter touchpoints keep passive talent engaged until ideal roles materialize."
+                  ]
+                },
+                "strategies": {
+                  "title": "Pipeline Acceleration Pillars",
+                  "intro": "Implement these strategic fundamentals to build an evergreen talent pipeline:",
+                  "points": [
+                    "Maintain an active warm pool of pre-screened talent across core verticals",
+                    "Leverage talent analytics to forecast quarterly headcount demands",
+                    "Conduct regular competitor compensation and benefits benchmark studies",
+                    "Engage specialized executive search partners for niche critical competencies"
+                  ]
+                },
+                "conclusion": "Organizations that prioritize talent pipelining achieve measurable hiring velocity, lower recruitment agency expenditure, and establish a resilient foundation for long-term growth."
+              },
+              "the-growing-importance-of-employee-wellbeing": {
+                "id": "post-3",
+                "slug": "the-growing-importance-of-employee-wellbeing",
+                "eyebrow": "BLOG DETAILS",
+                "title": "The Growing Importance of Employee Wellbeing",
+                "author": "Admin",
+                "date": "Apr 28, 2025",
+                "comments": "No Comments",
+                "category": "HR Strategy",
+                "read_time": "6 min read",
+                "image": "/blog/blog2.webp",
+                "image_alt": "Workplace wellbeing and employee balance",
+                "intro_paragraph": "Employee wellbeing is no longer a peripheral perk; it is a central operational pillar that directly influences retention, innovation, and overall corporate performance.",
+                "quote": "When companies take genuine care of their people, their people take exceptional care of the business.",
+                "paragraph_after_quote": "Progressive leaders understand that mental health support, flexible schedules, and psychological safety directly correlate with sustained productivity and low voluntary turnover.",
+                "sub_section": {
+                  "title": "Cultivate Sustainable Energy",
+                  "image": "/blog/team_culture.jpg",
+                  "image_alt": "Team enjoying collaborative wellness space",
+                  "paragraphs": [
+                    "Burnout represents one of the steepest hidden costs in modern enterprises. Transparent workloads and restorative time off prevent talent drain.",
+                    "Investing in empathetic leadership training equips managers to detect early signs of fatigue and provide proactive support."
+                  ]
+                },
+                "strategies": {
+                  "title": "Foundations of Modern Wellbeing",
+                  "intro": "To build a sustainable culture of health and engagement, prioritize these key pillars:",
+                  "points": [
+                    "Establish clear boundaries between working hours and recovery periods",
+                    "Provide comprehensive mental health and preventative healthcare benefits",
+                    "Foster inclusive environments where employees feel safe voicing feedback",
+                    "Recognize performance and celebrate collective milestones consistently"
+                  ]
+                },
+                "conclusion": "Fostering comprehensive employee wellbeing generates lasting loyalty, elevates creative problem-solving, and solidifies your employer brand in an increasingly discerning job market."
+              }
+            },
+            "enquireNow": {
+              "eyebrow": "ENQUIRE NOW",
+              "heading_black": "Tell us your",
+              "heading_teal": "requirement",
+              "description": "Fill out the form and our team will get back to you shortly with the right solution for your hiring needs.",
+              "highlights": [
+                {
+                  "icon": "users",
+                  "title_line1": "Expert",
+                  "title_line2": "Support"
+                },
+                {
+                  "icon": "settings",
+                  "title_line1": "Tailored",
+                  "title_line2": "Solutions"
+                },
+                {
+                  "icon": "clock",
+                  "title_line1": "Quick",
+                  "title_line2": "Response"
+                }
+              ],
+              "form": {
+                "eyebrow": "GET IN TOUCH",
+                "heading_black": "Enquiry",
+                "heading_teal": "Form",
+                "button_text": "Submit Enquiry",
+                "options": [
+                  "Select an Option",
+                  "Talent Acquisition",
+                  "HR Consulting",
+                  "Workforce Planning",
+                  "Staffing Solutions",
+                  "Executive Search & Leadership",
+                  "General Inquiry"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

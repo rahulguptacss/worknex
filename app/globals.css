@@ -2,25 +2,63 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0F1E25;
+  --color-primary: #0C4E55;
+  --color-primary-dark: #07353A;
+  --color-primary-light: #13666F;
+  --color-mint: #D6EAEB;
+  --color-mint-light: #E8F4F5;
+  --color-mint-soft: #F4F8F8;
+  --color-heading: #0F1E25;
+  --color-body: #556871;
+  --color-footer: #0A141A;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-primary-light: var(--color-primary-light);
+  --color-mint: var(--color-mint);
+  --color-mint-light: var(--color-mint-light);
+  --color-mint-soft: var(--color-mint-soft);
+  --color-heading: var(--color-heading);
+  --color-body: var(--color-body);
+  --color-footer: var(--color-footer);
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  --breakpoint-xs: 480px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #0F1E25;
+  font-family: var(--font-sans);
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F8F8;
+}
+::-webkit-scrollbar-thumb {
+  background: #0C4E55;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #07353A;
+}
+
+::selection {
+  background-color: #0C4E55;
+  color: #ffffff;
 }
