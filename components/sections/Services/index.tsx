@@ -76,7 +76,7 @@ export default function Services({ data, showCta = true }: ServicesProps) {
                 <div className="flex items-center gap-3 mb-2.5">
                   <span className="w-8 sm:w-9 h-[2px] bg-[#0C4E55] shrink-0" />
                   <span className="text-xs sm:text-[13px] font-semibold tracking-widest text-[#475569] uppercase">
-                    {eyebrow || 'OUR SOLUTIONS'}
+                    {eyebrow || 'OUR SERVICES'}
                   </span>
                 </div>
 
@@ -100,7 +100,7 @@ export default function Services({ data, showCta = true }: ServicesProps) {
                       className="inline-flex items-center gap-2 group text-xs sm:text-[13px] font-bold text-[#0C4E55] uppercase tracking-wider"
                     >
                       <span className="border-b-2 border-[#0C4E55] pb-0.5 group-hover:border-[#07353A] group-hover:text-[#07353A] transition-colors">
-                        {cta_text || 'VIEW ALL SOLUTIONS'}
+                        {cta_text || 'VIEW ALL SERVICES'}
                       </span>
                       <svg
                         className="w-4 h-4 text-[#0C4E55] group-hover:text-[#07353A] group-hover:translate-x-1.5 transition-all duration-200"

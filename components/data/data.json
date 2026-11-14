@@ -168,10 +168,6 @@
                   "component": "About"
                 },
                 {
-                  "key": "MissionVisionSection",
-                  "component": "MissionVision"
-                },
-                {
                   "key": "TestimonialsSection",
                   "component": "Testimonials"
                 }
@@ -343,7 +339,7 @@
               "right_image_alt": "Corporate business executive in navy suit holding digital tablet"
             },
             "about": {
-              "eyebrow": "ABOUT US",
+              "eyebrow": "WHO WE ARE",
               "title_line1": "Connecting",
               "title_line2": "Talent With",
               "title_line3": "Opportunity.",
@@ -358,13 +354,13 @@
             "services": {
               "image": "/services/consultation.webp",
               "image_alt": "Worknex HR consultation and strategic recruitment discussion",
-              "eyebrow": "OUR SOLUTIONS",
+              "eyebrow": "OUR SERVICES",
               "title_line1": "Get the Most",
               "title_line2": "Valuable HR Services",
               "title_black": "Get the Most",
               "title_teal": "Valuable HR Services",
               "description": "We help businesses build stronger teams with tailored HR solutions that drive growth and long-term success.",
-              "cta_text": "VIEW ALL SOLUTIONS",
+              "cta_text": "VIEW ALL SERVICES",
               "cta_link": "/services",
               "items": [
                 {
@@ -585,7 +581,7 @@
               "title_teal": "Fulfilling Potential"
             },
             "servicesIntro": {
-              "eyebrow": "OUR SOLUTIONS",
+              "eyebrow": "OUR SERVICES",
               "title_line1": "HR Solutions",
               "title_line2": "for a Stronger",
               "title_teal": "Workforce",

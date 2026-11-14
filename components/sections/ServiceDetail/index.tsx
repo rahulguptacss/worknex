@@ -322,15 +322,9 @@ export default function ServiceDetail({ data }: ServiceDetailProps) {
             </p>
           </div>
 
-          {/* 4 Process Steps Stepper Timeline Grid with Horizontal Line & Dots */}
+          {/* 4 Process Steps Stepper Timeline Grid */}
           <div className="relative">
-            {/* Continuous Horizontal Timeline Line across all columns */}
-            <div
-              aria-hidden="true"
-              className="hidden sm:block absolute top-[44px] left-0 right-0 h-[1px] bg-gray-200 z-0"
-            />
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10 divide-y sm:divide-y-0 sm:divide-x divide-gray-200/80">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative z-10 gap-6 sm:gap-0 sm:divide-x divide-gray-200/80">
               {process_steps.map((st, idx) => (
                 <div
                   key={idx}

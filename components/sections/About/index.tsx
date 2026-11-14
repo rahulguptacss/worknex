@@ -98,7 +98,7 @@ export default function About({ data }: AboutProps) {
                 className="w-8 sm:w-10 h-[2px] bg-[#0C4E55] inline-block shrink-0"
               />
               <span className="text-xs sm:text-sm font-bold tracking-[0.22em] sm:tracking-[0.25em] text-[#0C4E55] uppercase">
-                {eyebrow || 'ABOUT US'}
+                {eyebrow || 'WHO WE ARE'}
               </span>
             </motion.div>
 
@@ -156,20 +156,19 @@ export default function About({ data }: AboutProps) {
               </motion.div>
 
               {/* 3. Dark Teal D-Shape (Semicircle) */}
-              {/* Responsive width/height: w-20 on mobile, w-24 on xs, w-36 on sm, w-48 on lg */}
+              {/* Responsive width/height with comfortable left spacing for the "WHO WE ARE" label */}
               <motion.div
                 whileHover={{ x: -3 }}
                 transition={{ duration: 0.2 }}
-                className="relative z-10 w-20 xs:w-24 sm:w-36 md:w-44 lg:w-48 h-48 xs:h-56 sm:h-80 md:h-[360px] lg:h-[390px] bg-[#0C4E55] rounded-r-full rounded-l-none flex items-center justify-start pl-3 xs:pl-4 sm:pl-7 md:pl-8 shadow-md shrink-0"
+                className="relative z-10 w-24 xs:w-28 sm:w-40 md:w-48 lg:w-52 h-48 xs:h-56 sm:h-80 md:h-[360px] lg:h-[390px] bg-[#0C4E55] rounded-r-full rounded-l-none flex items-center justify-start pl-3 xs:pl-4 sm:pl-6 md:pl-7 shadow-md shrink-0"
               >
                 {/* Vertical "WHO WE ARE" text reading bottom-to-top (-rotate-90) */}
-                <span className="transform -rotate-90 whitespace-nowrap text-white text-[9px] xs:text-[10px] sm:text-xs md:text-sm font-bold tracking-[0.2em] sm:tracking-[0.28em] uppercase select-none">
+                <span className="transform -rotate-90 whitespace-nowrap text-white text-[10px] xs:text-[11px] sm:text-xs md:text-sm font-bold tracking-[0.22em] sm:tracking-[0.28em] uppercase select-none">
                   {vertical_badge || 'WHO WE ARE'}
                 </span>
               </motion.div>
 
               {/* 4. Circular HD Meeting Image overlapping the D-Shape */}
-              {/* Responsive diameter: 192px on 320px screen, 224px on xs, 320px on sm, 390px on lg */}
               <motion.div
                 animate={{
                   y: [0, -5, 0],
@@ -182,7 +181,7 @@ export default function About({ data }: AboutProps) {
                 whileHover={{
                   scale: 1.025,
                 }}
-                className="relative w-48 h-48 xs:w-56 xs:h-56 sm:w-80 sm:h-80 md:w-[350px] md:h-[350px] lg:w-[390px] lg:h-[390px] rounded-full overflow-hidden shadow-[0_15px_40px_rgba(0,0,0,0.22)] sm:shadow-[0_20px_50px_rgba(0,0,0,0.25)] z-20 group shrink-0 -ml-12 xs:-ml-14 sm:-ml-24 md:-ml-28 lg:-ml-32 cursor-pointer transition-shadow duration-300"
+                className="relative w-48 h-48 xs:w-56 xs:h-56 sm:w-80 sm:h-80 md:w-[350px] md:h-[350px] lg:w-[390px] lg:h-[390px] rounded-full overflow-hidden shadow-[0_15px_40px_rgba(0,0,0,0.22)] sm:shadow-[0_20px_50px_rgba(0,0,0,0.25)] z-20 group shrink-0 -ml-8 xs:-ml-10 sm:-ml-18 md:-ml-22 lg:-ml-26 cursor-pointer transition-shadow duration-300"
               >
                 <Image
                   src={image || '/about/meeting.webp'}

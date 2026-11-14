@@ -127,11 +127,11 @@ export default function Contact({ data }: ContactProps) {
           </div>
 
           {/* Large Multi-line Headline */}
-          <h1 className="text-3xl sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.15]">
+          <h1 className="text-[26px] xs:text-[30px] sm:text-5xl lg:text-[54px] font-extrabold tracking-tight leading-[1.18] sm:leading-[1.15]">
             <span className="block text-[#161D26]">{top_heading_black1}</span>
-            <span className="block">
-              <span className="text-[#161D26]">{top_heading_black2} </span>
-              <span className="text-[#0C4E55]">{top_heading_teal1}</span>
+            <span className="sm:block">
+              <span className="block sm:inline text-[#161D26]">{top_heading_black2}{' '}</span>
+              <span className="block sm:inline text-[#0C4E55] mt-1 sm:mt-0">{top_heading_teal1}</span>
             </span>
             <span className="block text-[#0C4E55]">{top_heading_teal2}</span>
           </h1>
@@ -246,11 +246,13 @@ export default function Contact({ data }: ContactProps) {
             </div>
 
             {/* Headline */}
-            <h2 className="text-3xl sm:text-4xl lg:text-[46px] font-extrabold tracking-tight leading-[1.12] mb-5">
-              <span className="block text-[#161D26]">{form_heading_black1}</span>
-              <span className="block text-[#161D26]">{form_heading_black2}</span>
-              <span className="block text-[#0C4E55]">{form_heading_teal1}</span>
-              <span className="block text-[#0C4E55]">{form_heading_teal2}</span>
+            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-[44px] font-extrabold tracking-tight leading-[1.18] mb-4 sm:mb-5">
+              <span className="block text-[#161D26]">
+                {[form_heading_black1, form_heading_black2].filter(Boolean).join(' ')}
+              </span>
+              <span className="block text-[#0C4E55] mt-1 sm:mt-1.5">
+                {[form_heading_teal1, form_heading_teal2].filter(Boolean).join(' ')}
+              </span>
             </h2>
 
             {/* Description */}

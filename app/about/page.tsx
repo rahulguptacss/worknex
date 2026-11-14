@@ -5,7 +5,6 @@ import Footer from '../../components/sections/Footer';
 import BackToTop from '../../components/ui/BackToTop';
 import Breadcrumb from '../../components/sections/Breadcrumb';
 import About from '../../components/sections/About';
-import MissionVision from '../../components/sections/MissionVision';
 import Testimonials from '../../components/sections/Testimonials';
 import { common, pages, sections, type PageComponent } from '../../components/types';
 
@@ -27,7 +26,6 @@ export default function AboutPage() {
       />
     ),
     About: <About data={sections.about} />,
-    MissionVision: <MissionVision data={sections.missionVision} />,
     Testimonials: <Testimonials data={sections.testimonials} />,
   };
 

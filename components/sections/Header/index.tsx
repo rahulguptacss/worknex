@@ -90,7 +90,7 @@ export default function Header({ data }: HeaderProps) {
             {data.button_text && (
               <Link
                 href={data.button_link || '#contact'}
-                className="inline-flex items-center gap-2 bg-[#0C4E55] hover:bg-[#07353A] text-white text-sm font-semibold px-6 py-2.5 rounded-full shadow-sm hover:shadow-md transition-all duration-200"
+                className="inline-flex items-center gap-2 bg-[#0C4E55] hover:bg-[#07353A] text-white text-sm font-semibold px-6 py-2.5 rounded-full shadow-sm hover:shadow-md transition-all duration-200 whitespace-nowrap shrink-0"
               >
                 <span>{data.button_text}</span>
               </Link>
@@ -98,13 +98,13 @@ export default function Header({ data }: HeaderProps) {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex md:hidden items-center gap-3">
+          <div className="flex md:hidden items-center gap-2.5 sm:gap-3">
             {data.button_text && (
               <Link
                 href={data.button_link || '#contact'}
-                className="bg-[#0C4E55] text-white text-xs font-semibold px-4 py-2 rounded-full"
+                className="bg-[#0C4E55] hover:bg-[#07353A] text-white text-[11.5px] xs:text-xs font-semibold px-3 xs:px-4 py-2 rounded-full whitespace-nowrap shrink-0 tracking-wide transition-colors"
               >
-                {data.button_text}
+                <span>{data.button_text}</span>
               </Link>
             )}
             <button

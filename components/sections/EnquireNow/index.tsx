@@ -106,72 +106,71 @@ export default function EnquireNow({ data }: EnquireNowProps) {
 
   return (
     <section className="relative w-full bg-white font-sans text-[#0F1E25] py-16 sm:py-20 lg:py-24 overflow-hidden selection:bg-[#0C4E55] selection:text-white">
-      {/* Top-Right Ambient Layered Curved Waves (Exact Match to Screenshot) */}
-      <div className="absolute -top-10 -right-10 w-[380px] sm:w-[480px] lg:w-[640px] h-[380px] sm:h-[480px] lg:h-[640px] pointer-events-none z-0">
+      {/* Background Layered Decorative Waves & Soft Auras (Full-Bleed & Seamless) */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden z-0 select-none">
+        {/* Top-Right Soft Ambient Aura */}
+        <div className="absolute -top-32 -right-32 w-[520px] sm:w-[680px] lg:w-[840px] h-[520px] sm:h-[680px] lg:h-[840px] rounded-full bg-gradient-to-br from-[#A6E1E6]/40 via-[#D5EFF1]/50 to-transparent blur-[90px]" />
+
+        {/* Bottom-Left Soft Ambient Aura */}
+        <div className="absolute -bottom-32 -left-32 w-[520px] sm:w-[680px] lg:w-[840px] h-[520px] sm:h-[680px] lg:h-[840px] rounded-full bg-gradient-to-tr from-[#A6E1E6]/40 via-[#D5EFF1]/50 to-transparent blur-[90px]" />
+
+        {/* Top-Right Full-Bleed Organic Flow Waves */}
         <svg
-          viewBox="0 0 600 600"
+          viewBox="0 0 1000 800"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full"
+          preserveAspectRatio="none"
+          className="absolute top-0 right-0 w-full sm:w-3/4 lg:w-2/3 h-2/3 sm:h-3/4 opacity-75"
         >
-          {/* Layer 1 - Lightest Ambient Curve */}
           <path
-            d="M600 0 C420 50 260 180 200 370 C160 500 200 570 260 600 L600 600 Z"
+            d="M1000 0 C700 80 420 280 320 540 C280 640 320 740 400 800 L1000 800 Z"
             fill="#EAF6F7"
-            fillOpacity="0.85"
+            fillOpacity="0.8"
           />
-          {/* Layer 2 - Medium Soft Teal Wave Ribbon */}
           <path
-            d="M600 0 C470 70 330 190 280 360 C240 480 290 560 360 600 L600 600 Z"
+            d="M1000 0 C780 110 540 300 460 520 C400 630 450 730 540 800 L1000 800 Z"
             fill="#D5EFF1"
-            fillOpacity="0.9"
+            fillOpacity="0.75"
           />
-          {/* Layer 3 - Core Curved Shade */}
           <path
-            d="M600 0 C510 90 390 220 370 360 C350 460 400 540 470 600 L600 600 Z"
+            d="M1000 0 C840 140 640 320 580 500 C540 610 600 710 680 800 L1000 800 Z"
             fill="#BFECF0"
-            fillOpacity="0.85"
+            fillOpacity="0.65"
           />
-          {/* Layer 4 - Accent Wave Edge */}
           <path
-            d="M600 0 C550 120 460 250 450 370 C440 460 480 540 560 600 L600 600 Z"
+            d="M1000 0 C890 170 730 350 680 490 C650 580 700 690 790 800 L1000 800 Z"
             fill="#A6E1E6"
-            fillOpacity="0.6"
+            fillOpacity="0.45"
           />
         </svg>
-      </div>
 
-      {/* Bottom-Left Ambient Layered Curved Waves (Exact Match to Screenshot) */}
-      <div className="absolute -bottom-10 -left-10 w-[380px] sm:w-[480px] lg:w-[640px] h-[380px] sm:h-[480px] lg:h-[640px] pointer-events-none z-0">
+        {/* Bottom-Left Full-Bleed Organic Flow Waves */}
         <svg
-          viewBox="0 0 600 600"
+          viewBox="0 0 1000 800"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full"
+          preserveAspectRatio="none"
+          className="absolute bottom-0 left-0 w-full sm:w-3/4 lg:w-2/3 h-2/3 sm:h-3/4 opacity-75"
         >
-          {/* Layer 1 - Lightest Ambient Curve */}
           <path
-            d="M0 600 C180 550 340 420 400 230 C440 100 400 30 340 0 L0 0 Z"
+            d="M0 800 C300 720 580 520 680 260 C720 160 680 60 600 0 L0 0 Z"
             fill="#EAF6F7"
-            fillOpacity="0.85"
+            fillOpacity="0.8"
           />
-          {/* Layer 2 - Medium Soft Teal Wave Ribbon */}
           <path
-            d="M0 600 C130 530 270 410 320 240 C360 120 310 40 240 0 L0 0 Z"
+            d="M0 800 C220 690 460 500 540 280 C600 170 550 70 460 0 L0 0 Z"
             fill="#D5EFF1"
-            fillOpacity="0.9"
+            fillOpacity="0.75"
           />
-          {/* Layer 3 - Core Curved Shade */}
           <path
-            d="M0 600 C90 510 210 380 230 240 C250 140 200 60 130 0 L0 0 Z"
+            d="M0 800 C160 660 360 480 420 300 C460 190 400 90 320 0 L0 0 Z"
             fill="#BFECF0"
-            fillOpacity="0.85"
+            fillOpacity="0.65"
           />
-          {/* Layer 4 - Accent Wave Edge */}
           <path
-            d="M0 600 C50 480 140 350 150 230 C160 140 120 60 40 0 L0 0 Z"
+            d="M0 800 C110 630 270 450 320 310 C350 220 300 110 210 0 L0 0 Z"
             fill="#A6E1E6"
-            fillOpacity="0.6"
+            fillOpacity="0.45"
           />
         </svg>
       </div>

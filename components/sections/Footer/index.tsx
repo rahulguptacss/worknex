@@ -75,12 +75,12 @@ export default function Footer({ data }: FooterProps) {
           
           {/* 1. Logo & Social Links */}
           <div className="border-b border-white/10 pb-5">
-            <Link href="/" className="inline-block relative h-11 w-48 sm:h-13 sm:w-56 focus:outline-none">
+            <Link href="/" className="inline-block relative h-8 w-36 xs:h-9 xs:w-40 sm:h-11 sm:w-48 focus:outline-none">
               <Image
                 src={logo || '/logo/logo-w.webp'}
                 alt={logo_text || 'WORKNEX'}
                 fill
-                sizes="(max-width: 640px) 200px, 240px"
+                sizes="(max-width: 640px) 160px, 200px"
                 priority
                 className="object-contain object-left origin-left"
               />

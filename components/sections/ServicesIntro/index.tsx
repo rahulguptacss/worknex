@@ -9,7 +9,7 @@ interface ServicesIntroProps {
 }
 
 export default function ServicesIntro({ data }: ServicesIntroProps) {
-  const eyebrow = data?.eyebrow || 'OUR SOLUTIONS';
+  const eyebrow = data?.eyebrow || 'OUR SERVICES';
   const line1 = data?.title_line1 || 'HR Solutions';
   const line2 = data?.title_line2 || 'for a Stronger';
   const line3 = data?.title_teal || 'Workforce';
